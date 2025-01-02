@@ -114,20 +114,3 @@ void loop() {
 		while (Serial.available()) Serial.read();
 	}
 }
-
-
-/*
-void setup() {
-	Serial.begin(9600);
-}
-
-void loop() {
-	if (Serial.available()) Serial.println(Serial.parseInt());
-}
-*/
-
-// 0: input[0] 1: input[1] u: unused
-// u u u u 
-// u 0 u u
-// u u 1 u
-// u u u u 
